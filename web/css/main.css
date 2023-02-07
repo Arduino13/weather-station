@@ -1,0 +1,129 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background: #D4E7FF;
+	background: -moz-linear-gradient(top, #F6FBFF 0%, #D4E7EF 100%);
+	background: -webkit-linear-gradient(top, #F6FBFF 0%, #D4E7EF 100%);
+	background: linear-gradient(to bottom, #F6FBFF 0%, #D4E7EF 100%);
+	font-family: Verdana,Geneva, sans-serif;
+}
+input,select{
+	border: 2px solid #0fbeff;
+	border-radius: 6px;
+	font-size: 16px;
+}
+#extra_margin{
+	margin: 10px 20px 10px 20px;
+	float: left;
+}
+header{
+	height: 73px;
+	background: #1c2228;
+}
+nav ul {
+        margin: 0px;
+        list-style-type: none;
+}
+nav ul li {
+        float: left;
+        padding: 0px 25px;
+        margin: 0 15px;
+        font-size: 17px;
+        height: 73px;
+        line-height: 4.3em;
+}
+nav a {
+        color: white;
+        text-decoration: none;
+}
+nav ul li:hover{
+        background: #ffbb00;
+}
+h1{
+	height: 73px; 
+	margin: 20px 30px;
+	float: left;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: center;
+}
+img{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 12px;
+}
+td{
+	float:left;
+	display: inline;
+}
+th{
+	font-size: 20px;
+	color: #edfbff;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	background: #0fbeff;
+}
+table, tr, td, th{
+	margin: auto;
+	text-align: center;
+}
+h5{
+	font-size: 14px;
+	color: rgba(15,56,83,1);
+	font-weight: 600;
+}
+#actual{
+	width: 16%;
+}
+#values {
+	font-size: 18px;
+	color: rgba(28,110,164,0.8);
+	font-weight: 700;
+}
+#min, #max{
+	font-size: 15px;
+	font-weight: 700;
+}
+#min{
+	color: #195eff;
+}
+#max{
+	color: #ff4242;
+}
+#time, #time_d {
+	margin-bottom: 20px;
+	width: 49%;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  height: 15px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #D4e7ff; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #D4e7ff; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
